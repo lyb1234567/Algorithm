@@ -1,6 +1,9 @@
 import random
 
-
+"""
+插入排序，遍历一个已知列表，没到一个元素，就与该元素前面的已经排序好的子列表进行查询，如果找到比自己小的，就将该元素与那个比自己大的元素进行替换
+最坏情况为O(N^2)
+"""
 def insertion_sort_ascedning(lst):
     for i in range(1,len(lst)):
         key=lst[i]

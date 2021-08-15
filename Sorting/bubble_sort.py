@@ -1,4 +1,7 @@
 import random
+"""
+冒泡排序，每个元素每一轮遍历之中两两比较，进行交换，复杂度为O(N^2)
+"""
 def bubble(lst):
     for i in range(len(lst)):
         for j in range(i+1,len(lst)):
